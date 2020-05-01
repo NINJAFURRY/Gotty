@@ -1,4 +1,4 @@
-# Gotty
+99Gotty
 Run docker container in web browser 
 
 ```bash
@@ -7,4 +7,7 @@ curl -o /etc/yum.repos.d/home_radiorabe_misc.repo http://download.opensuse.org/r
 yum install gotty-bin
 
 /opt/gotty/bin/gotty [CMD]
+
+
+/opt/gotty/bin/gotty -w -p "9000" -c "username:password" docker run -it <dokcer image name>
 ```
